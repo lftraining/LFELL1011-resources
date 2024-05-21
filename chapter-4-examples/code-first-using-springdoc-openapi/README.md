@@ -20,7 +20,7 @@ Assuming you are already in this directory, simply run:
 
 And you should be good to go.
 
-## Running the Application
+## Running the Application
 
 To run the application and send requests to its API run the `bootRun` command:
 
