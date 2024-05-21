@@ -2,7 +2,7 @@
 
 This is an example of using annotations in code - also known as "code-first design" - to generate an OpenAPI description.
 
-## Pre-requisites
+## Pre-requisites
 
 This is a Java application. You will need Java 17 installed, with instructions dependent on your operating system.
 
