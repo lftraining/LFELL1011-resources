@@ -1,6 +1,6 @@
 # Code-first using springdoc-openapi
 
-This is an example of using annotations in code - also known as "code-first design" - to generate an OpenAPI description.
+This is an example of using annotations in Java code - also known as "code-first design" - to generate an OpenAPI description.
 
 ## Pre-requisites
 
