@@ -37,6 +37,6 @@ If you are tackling the task from the chapter _Using an OpenAPI document_ here a
 - You should filter for anything where `additionalProperties: false` is already set. As a hint, your JSON Path at this point should look something like this (but feel free to amend as required).
 - You should provide an appropriate error message to indicate the issue.
 
-As a hint your JSON Path will need to look something like this: `$..[?(@property == 'additionalProperties' && @ != false)]`
+As a hint, your JSON Path will need to look something like this: `$..[?(@property == 'additionalProperties' && @ != false)]`
 
 Please visit the Spectral documentation [page](https://docs.stoplight.io/docs/spectral) for more detailed information on how Spectral works.
