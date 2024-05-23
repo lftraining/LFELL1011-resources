@@ -34,9 +34,12 @@ https://raw.githubusercontent.com/OAI/OAI-Courses/main/src/openapi-fundamentals/
 If you are tackling the task from the chapter _Using an OpenAPI document_ here are a few hints on building your rule:
 
 - You'll need to find everything in the OpenAPI description that looks like a Schema Object with a `type` value of `object`.
-- You should filter for anything where `additionalProperties: false` is already set. As a hint, your JSON Path at this point should look something like this (but feel free to amend as required).
+- You should use appropriate Spectral [core functions](https://docs.stoplight.io/docs/spectral/cb95cf0d26b83-core-functions) to test for the property being set as required.
 - You should provide an appropriate error message to indicate the issue.
 
-As a hint, your JSON Path will need to look something like this: `$..[?(@property == 'additionalProperties' && @ != false)]`
+A couple of hints:
+
+- Your JSON Path will need to look something like this: `$..[?(@.type == "object")]`.
+- You can use **_both_** the core functions `defined` and `falsy` to test for `additionalProperties` being set correctly.
 
 Please visit the Spectral documentation [page](https://docs.stoplight.io/docs/spectral) for more detailed information on how Spectral works.
