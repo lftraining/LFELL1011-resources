@@ -1,4 +1,4 @@
-# Applying Governance with Spectral
+# Applying Governance with Spectral
 
 This project is a very simple example of applying governance to an OpenAPI description using Spectral.
 
