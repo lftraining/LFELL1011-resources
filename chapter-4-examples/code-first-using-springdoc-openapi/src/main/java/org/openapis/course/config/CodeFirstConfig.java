@@ -12,13 +12,13 @@ import org.springframework.context.annotation.Configuration;
 public class CodeFirstConfig {
 
   @Bean
-  public OpenAPI customOpenAPI(@Value("${application-description}") String appDesciption,
+  public OpenAPI customOpenAPI(@Value("${application-description}") String appDescription,
       @Value("${application-version}") String appVersion) {
     return new OpenAPI()
         .info(new Info()
             .title("OpenAPI v3.1 Fundamentals Example")
             .version(appVersion)
-            .description(appDesciption));
+            .description(appDescription));
   }
 
   @Bean
